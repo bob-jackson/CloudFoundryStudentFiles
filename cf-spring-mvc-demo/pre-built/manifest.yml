@@ -3,6 +3,6 @@ applications:
   memory: 512M
   host: cf-spring-mvc-demo-${random-word}
   # Currently defaults to PWS
-  domain: cfapps.io
+  buildpack: https://github.com/bob-jackson/java-buildpack
   path: pre-built/cf-spring-mvc-demo-0.0.1-SNAPSHOT.war
 
